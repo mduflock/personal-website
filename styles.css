@@ -1,0 +1,160 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+element.style {
+    display: flex;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    background-color: #F89947;
+}
+
+
+#container {
+    width:450px;
+    margin: auto;
+    background-color: white;
+}
+
+#container span {
+    display: block;
+    width: 100%;
+}
+
+.title {
+    color: red;
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 300;
+    font-size: 250%;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: -30px;
+}
+
+.subtitle {
+    text-align: center;
+    vertical-align: middle;
+    border-top: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-right: 132px;
+    font-weight: bold;
+    font-weight: 210%;
+    margin-bottom: 20px;
+    font-family: 'Homemade Apple', cursive;
+}
+
+#linkcontainer {
+    text-align: center;
+}
+
+.link1,
+.link2,
+.link3,
+.link4,
+.link5 {
+    display: inline-block;
+    *display: inline;
+    width: 19%;
+    height: 20px;
+    vertical-align: top;
+    zoom: 1;
+    background: #ccc
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+
+.app {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-left: 15px;
+}
+
+.description {
+    margin: 20px;
+    border: 20px;
+}
+
+#footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100%;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    font-color: #F0F0EF;
+}
+
+.contact {
+    font-color: #F0F0EF;
+}
+
+
+/* Projects Page-Specific Styles */
+#projectstitlecontainer {
+    width: 95%;
+    margin: auto;
+    background: white;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.project {
+    width: 95%;
+    margin: auto;
+    background: white;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+
+/* Resume Page-Specific Styles */
+#resumetitlecontainer {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.resumetitle {
+    font-family: 'Homemade Apple', cursive;
+    font-weight: bold;
+    font-weight: 210%;
+    font-size: 100%;
+    background-color: #0ff;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+#resumesubtitlecontainer {
+    width: 95%;
+    margin: auto;
+    background: white;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+#resumecontainer {
+    margin: 10px;
+    text-align: center;
+}
+
+.resumeembed {
+    margin-left: 25px;
+}
