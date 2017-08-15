@@ -108,24 +108,52 @@ body {
 
 /* Projects Page-Specific Styles */
 #projectstitlecontainer {
-    width: 95%;
+    width: 96%;
     margin: auto;
-    background: white;
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    font-weight: bold;
+    background: #0ff;
 }
 
-.project {
-    width: 95%;
+#project1container {
+    width: 96%;
     margin: auto;
-    background: white;
     margin-bottom: 10px;
-    margin-left: 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 5px;
+    background: white;
+}
+
+#project2container {
+    width: 96%;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 5px;
+    background: white;
+}
+
+#project3container {
+    width: 96%;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 5px;
+    background: white;
 }
 
 
 /* Resume Page-Specific Styles */
-#resumetitlecontainer {
+
+/*#resumetitlecontainer {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -139,22 +167,22 @@ body {
     width: 200px;
     margin: auto;
     margin-bottom: 5px;
-}
+}*/
 
 #resumesubtitlecontainer {
-    width: 95%;
-    margin: auto;
-    background: white;
+    background: #0ff;
+    font-weight: bold;
     text-align: center;
     margin-bottom: 10px;
-    margin-left: 25px;
+    padding: 5px;
 }
 
 #resumecontainer {
-    margin: 10px;
     text-align: center;
 }
 
-.resumeembed {
-    margin-left: 25px;
+#resumemaincontainer {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
 }

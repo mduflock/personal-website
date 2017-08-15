@@ -1,15 +1,12 @@
 Things still to do for website: 
 1) Fix projects. 
-a. Add images. 
-b. Add links to Github. 
-c. Add descriptions that are better. 
-d. Complete the relational databases project and screenshot it. 
+d. Complete the relational databases project and screenshot it.?
 e. Complete the application from the application class you're taking. 
+f. Fix video on Projects page 
 
 2) Finish the about description. 
 a. Include coursework, summer experience - CVS, family, courses. 
 b. Discuss other activities - clubs, volunteer work/protests, debate, in addition to schoolwork. 
 
-3) Create a github account. 
+3) Get a domain name registered. 
 
-4) Get a domain name registered. 
