@@ -1,3 +1,4 @@
+/* Header, Footer and Generic Styles, + About Home Page */
 *{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -12,7 +13,7 @@ element.style {
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    background-color: #F89947;
+    background-color: #FFA67E;
 }
 
 
@@ -87,6 +88,7 @@ body {
 .description {
     margin: 20px;
     border: 20px;
+    margin-top: -10px;
 }
 
 #footer {
@@ -94,7 +96,7 @@ body {
     font-weight: 100%;
     text-align: center;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .copyright {
@@ -127,7 +129,6 @@ body {
     margin-left: 2%;
     margin-right: 2%;
     padding: 5px;
-    background: white;
 }
 
 #project2container {
@@ -137,17 +138,37 @@ body {
     margin-left: 2%;
     margin-right: 2%;
     padding: 5px;
-    background: white;
+}
+
+.proj2img {
+    width: 23%;
+    margin: 5px;
+    height: auto;
+}
+
+.proj2desc {
+    width: 23%;
+    margin: 7px;
+    float: left;
 }
 
 #project3container {
     width: 96%;
-    margin: auto;
+    margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 2%;
     margin-right: 2%;
     padding: 5px;
-    background: white;
+    clear: left;
+}
+
+.breakfor3 {
+    clear: left;
+    height: 10px;
+}
+
+.footerbreak {
+    margin-top: 40px;
 }
 
 
